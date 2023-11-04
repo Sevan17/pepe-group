@@ -113,10 +113,10 @@
     font-family: Poppins;
 }
 
-.bar:hover {
+/* .bar:hover {
     border-bottom: 3px solid #003128;
     color: #003128;
-}
+} */
 
 input[name="r"] {
     position: absolute;
@@ -652,9 +652,7 @@ input[name="r"] {
 .bar-2:hover {
     border: 3px solid rgba(0, 0, 0, 1);
 }
-.bar:active{
-    color: red;
-}
+
 input[name="n"] {
     position: absolute;
     visibility: hidden;
@@ -1405,6 +1403,5 @@ input[name="n"] {
     color: rgb(156, 128, 166);
 }
 .active-bar{
-    border-bottom: 4px solid #003128;
-    color: #003128;
+    border-bottom: 3px solid #000;
 }

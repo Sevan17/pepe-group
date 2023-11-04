@@ -2300,11 +2300,10 @@
 
     .bar {
         width: 80px;
-        color: #BDC6D7;
+        color: #000;
     }
 
     .bar:hover {
-        color: black;
         border-bottom: 2px solid black;
     }
 
@@ -2871,11 +2870,10 @@
 
     .bar {
         width: 80px;
-        color: #BDC6D7;
+        color: black;
     }
 
     .bar:hover {
-        color: black;
         border-bottom: 2px solid black;
     }
 
