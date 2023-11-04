@@ -7,6 +7,7 @@
 
     .active-bar {
         border-bottom: 4px solid #fff;
+        color: white;
     }
 
     .oval,
@@ -57,11 +58,6 @@
     .bar {
         width: 50px;
         color: #BDC6D7;
-    }
-
-    .bar:hover {
-        color: white;
-        border-bottom: 2px solid white;
     }
 
     .navigation {
@@ -572,6 +568,7 @@
 
     .active-bar {
         border-bottom: 3px solid #fff;
+        color: white;
     }
 
     .oval,
@@ -624,10 +621,7 @@
         color: #BDC6D7;
     }
 
-    .bar:hover {
-        color: white;
-        border-bottom: 2px solid white;
-    }
+
 
     .navigation {
         height: 40px;
@@ -1127,6 +1121,7 @@
 
     .active-bar {
         border-bottom: 3px solid #fff;
+        color: white;
     }
 
     .oval,
@@ -1180,10 +1175,6 @@
         color: #BDC6D7;
     }
 
-    .bar:hover {
-        color: white;
-        border-bottom: 2px solid white;
-    }
 
     .navigation {
         height: 40px;
@@ -1695,6 +1686,7 @@
 @media only screen and (min-width: 920px) and (max-width: 1079px) {
     .active-bar {
         border-bottom: 3px solid #fff;
+        color: white;
     }
 
     .container-1 {
@@ -1746,10 +1738,7 @@
         color: #BDC6D7;
     }
 
-    .bar:hover {
-        color: white;
-        border-bottom: 2px solid white;
-    }
+
 
     .navigation {
         height: 40px;
@@ -2319,9 +2308,6 @@
         color: #000;
     }
 
-    .bar:hover {
-        border-bottom: 2px solid black;
-    }
 
     .navigation {
         height: 40px;
@@ -2887,10 +2873,6 @@
     .bar {
         width: 80px;
         color: black;
-    }
-
-    .bar:hover {
-        border-bottom: 2px solid black;
     }
 
     .navigation {
