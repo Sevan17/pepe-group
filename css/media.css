@@ -5,6 +5,10 @@
         background-position: center;
     }
 
+    .active-bar {
+        border-bottom: 4px solid #fff;
+    }
+
     .oval,
     .oval-2 {
         width: 160px;
@@ -566,6 +570,10 @@
         background-position: center;
     }
 
+    .active-bar {
+        border-bottom: 3px solid #fff;
+    }
+
     .oval,
     .oval-2 {
         width: 180px;
@@ -1115,6 +1123,10 @@
         background-position: center;
         background-size: 100% 940px;
 
+    }
+
+    .active-bar {
+        border-bottom: 3px solid #fff;
     }
 
     .oval,
@@ -1681,6 +1693,10 @@
 }
 
 @media only screen and (min-width: 920px) and (max-width: 1079px) {
+    .active-bar {
+        border-bottom: 3px solid #fff;
+    }
+
     .container-1 {
         width: auto;
         height: 440px;
