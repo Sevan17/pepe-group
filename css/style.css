@@ -55,7 +55,6 @@
     background: linear-gradient(270deg, rgba(0, 0, 0, 0.20) 0%, rgba(255, 255, 255, 0.20) 100%);
     backdrop-filter: blur(25.5px);
     display: flex;
-    align-items: center;
 }
 
 .header-menu {
@@ -112,11 +111,6 @@
     font-weight: 600;
     font-family: Poppins;
 }
-
-/* .bar:hover {
-    border-bottom: 3px solid #003128;
-    color: #003128;
-} */
 
 input[name="r"] {
     position: absolute;
@@ -1191,7 +1185,6 @@ input[name="n"] {
 }
 
 .box-2 {
-    /* position: relative; */
     overflow: hidden;
     background-image: url(../images/car-beauti-nature.jpg);
     background-size: 50% 100%;
@@ -1254,11 +1247,12 @@ input[name="n"] {
     font-weight: 700;
     line-height: 1.8;
     margin-top: 20px;
-    
+
 }
-.nav-txt-style p:hover{
+
+.nav-txt-style p:hover {
     text-decoration: underline;
-    text-shadow: 0px 0px 10px rgba(255,255,255,0.6);
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.6);
     transform: scale(1.02);
     transition: 0.3s;
 }
@@ -1285,44 +1279,76 @@ input[name="n"] {
     font-weight: 500;
     transition: 0.3s;
 }
-.social-block:hover{
+
+.social-block:hover {
     background-color: #fff;
     color: #000;
 }
 
 #select-lang {
-    width: 76px;
-    height: 31px;
+    width: 70px;
+    height: auto;
     border-radius: 3px;
-    border: 1px solid #FFF;
-    background: transparent;
     color: #FFF;
     font-family: Poppins-light;
     font-size: 16px;
     font-weight: 500;
     text-align: center;
+    margin: 30px 30px auto;
     cursor: pointer;
     text-transform: uppercase;
+    transition: opacity 0.5s;
+    position: relative;
+}
+
+#select-lang:hover #down-angle {
+    transform: rotate(180deg);
+    color: #000;
+}
+
+#down-angle {
+    position: absolute;
+    top: 6px;
+    left: 52px;
     transition: 0.5s;
 }
 
-#select-lang:hover {
-    background-color: #fff;
-    color: #000;
+.hidden {
+    display: none;
+    transition: 0.5s;
+}
+
+#select-lang:hover .hidden {
+    display: block;
 }
 
 .opt-style {
-    width: 76px;
-    height: 31px;
+    width: 100%;
+    height: 30px;
     border-radius: 3px;
     border: 1px solid #FFF;
     background: transparent;
-    color: #000;
+    color: #fff;
     cursor: pointer;
     font-family: Poppins-light;
     font-size: 16px;
     font-weight: 500;
     text-align: center;
+    transition: 0.5s;
+}
+
+.opt-style:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.hidden:hover #down-angle {
+    color: white;
+}
+
+#select-lang :hover .fa {
+    color: #ff0000;
+    transform: rotate(180deg)
 }
 
 .ord-two {
@@ -1402,6 +1428,7 @@ input[name="n"] {
     text-shadow: 0px 0px 5px rgba(156, 128, 166, 0.6);
     color: rgb(156, 128, 166);
 }
-.active-bar{
+
+.active-bar {
     border-bottom: 3px solid #000;
 }

@@ -49,10 +49,41 @@
     }
 
     #select-lang {
-        margin: 0 15px;
-        width: 60px;
-        height: 25px;
+        margin: 30px 15px;
+        width: 50px;
+        height: auto;
         font-size: 12px;
+    }
+
+    #down-angle {
+        position: absolute;
+        top: 6px;
+        left: 40px;
+        transition: 0.5s;
+    }
+
+    #select-lang:hover #down-angle {
+        transform: rotate(180deg);
+        color: #000;
+    }
+
+    #select-lang:hover .hidden {
+        display: block;
+    }
+
+    .opt-style {
+        width: 100%;
+        height: 25px;
+        border-radius: 3px;
+        border: 1px solid #FFF;
+        background: transparent;
+        color: #fff;
+        cursor: pointer;
+        font-family: Poppins-light;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+        transition: 0.5s;
     }
 
     .bar {
@@ -610,10 +641,30 @@
     }
 
     #select-lang {
-        margin: 0 15px;
+        margin: 30px 15px;
         width: 60px;
+        height: auto;
+        font-size: 14px;
+    }
+
+    #down-angle {
+        position: absolute;
+        top: 6px;
+        left: 47px;
+        transition: 0.5s;
+    }
+
+    #select-lang:hover #down-angle {
+        transform: rotate(180deg);
+        color: #000;
+    }
+
+    #select-lang:hover .hidden {
+        display: block;
+    }
+
+    .opt-style {
         height: 25px;
-        font-size: 12px;
     }
 
     .bar {
@@ -1164,10 +1215,30 @@
     }
 
     #select-lang {
-        margin: 0 15px;
+        margin: 30px 15px;
         width: 60px;
-        height: 25px;
-        font-size: 12px;
+        height: auto;
+        font-size: 14px;
+    }
+
+    #down-angle {
+        position: absolute;
+        top: 6px;
+        left: 47px;
+        transition: 0.5s;
+    }
+
+    #select-lang:hover #down-angle {
+        transform: rotate(180deg);
+        color: #000;
+    }
+
+    #select-lang:hover .hidden {
+        display: block;
+    }
+
+    .opt-style {
+        height: 28px;
     }
 
     .bar {
@@ -1727,10 +1798,30 @@
     }
 
     #select-lang {
-        margin: 0 15px;
+        margin: 30px 15px;
         width: 60px;
-        height: 25px;
-        font-size: 12px;
+        height: auto;
+        font-size: 14px;
+    }
+
+    #down-angle {
+        position: absolute;
+        top: 6px;
+        left: 47px;
+        transition: 0.5s;
+    }
+
+    #select-lang:hover #down-angle {
+        transform: rotate(180deg);
+        color: #000;
+    }
+
+    #select-lang:hover .hidden {
+        display: block;
+    }
+
+    .opt-style {
+        height: 30px;
     }
 
     .bar {
@@ -2297,10 +2388,30 @@
     }
 
     #select-lang {
-        margin: 0 15px;
+        margin: 30px 15px;
         width: 60px;
-        height: 25px;
+        height: auto;
         font-size: 14px;
+    }
+
+    #down-angle {
+        position: absolute;
+        top: 6px;
+        left: 47px;
+        transition: 0.5s;
+    }
+
+    #select-lang:hover #down-angle {
+        transform: rotate(180deg);
+        color: #000;
+    }
+
+    #select-lang:hover .hidden {
+        display: block;
+    }
+
+    .opt-style {
+        height: 30px;
     }
 
     .bar {
@@ -2864,11 +2975,30 @@
     }
 
     #select-lang {
-        margin: 0 25px;
+        margin: 30px 25px auto;
         width: 60px;
-        height: 25px;
+        height: auto;
+        transition: opacity 0.5s;
         font-size: 14px;
     }
+
+    #down-angle {
+        position: absolute;
+        top: 6px;
+        left: 48px;
+        transition: 0.5s;
+    }
+
+    #select-lang:hover .hidden {
+        display: block;
+        opacity: 1;
+    }
+
+    #select-lang:hover #down-angle {
+        color: #000;
+        transform: rotate(180deg);
+    }
+
 
     .bar {
         width: 80px;
